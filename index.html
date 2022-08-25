@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h2>My Awesome</h2>
+    <nav class="nav">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Services</li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+
+    <section>
+      <h2>My First Evaluation</h2>
+      <p>This evaluatin was done to measure my understanding of basic html in my present course
+      </p>
+    </section>
+    <form>
+      <div class="form-group">
+        <label for="Firstname">first name</label>
+          <input 
+          type="text" 
+          name="firstname" 
+          class="form-control" 
+          placeholder="enter first name">
+      </label>
+
+        </div>   
+        <div class="form-group">
+          <label for="Lastname">last name</label>
+            <input 
+            type="text" 
+            name="lastname" 
+            class="form-control" 
+            placeholder="lastname"
+            />
+      </div> 
+        <div class="form-group">
+        <label for="Email">Email Address</label>
+          <input 
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Contact">Contact</label>
+            <input 
+            type="tel" 
+            name="contact"
+            class="form-control"
+            placeholder="e.g +233505419444"
+            />
+        </div>
+        <div class="form-group">
+          <label for="Gender">Select Gender</label>
+          <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">others</option>
+            <option value="prefernottosay">Prefer not to say</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <input 
+          type="radio" 
+          name="gender"
+          class="form-control"
+          placeholder="enter first name"
+          />
+       
+        </div>
+        <button type="submit">submit</button>
+    </form>
+  </main>
+</body>
+</html>

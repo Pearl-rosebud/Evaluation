@@ -1,0 +1,10 @@
+.nav{
+  background-color: blue;
+  text-align: end;
+  display:flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  flex-direction: row;
+}
+
